@@ -1,6 +1,4 @@
 *,*:before, *:after {
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
 }
 
@@ -76,22 +74,22 @@ body {
     text-decoration: none;
 }
 
-form input[type="text"]::selection{
+/* form input[type="text"]::selection{
     background-color: white;
     color: black
 }
 
 form input[type="text"]{
     background-color: #1B1B1B;
-    width: 450px;
+    width: 90%;
     height: 45px;
     border: 2px solid;
     border-radius: 5px;
     border-color: #000000;
     font-family: 'Comfortaa', cursive;
-}
+} */
 
-form input[type=submit]{
+/* form input[type=submit]{
     width: 100px;
     height: 45px;
     background-color: #1B1B1B;
@@ -100,7 +98,7 @@ form input[type=submit]{
     border-radius: 5px;
     border-color: #000000;
     font-family: 'Comfortaa', cursive;
-}
+} */
 
 .dream__trip{
     text-align: center;
@@ -121,8 +119,7 @@ form input[type=submit]{
 
 .slider {
     width: 100%;
-    max-width: 1200px;
-    height: 500px;
+    height: 3%;
     margin: 3%;
     text-align: center;
     position: relative;
@@ -147,7 +144,6 @@ form input[type=submit]{
     align-items: center;
     flex-shrink: 0;
     width: 100%;
-    height: 500px;
     margin-right: 0px;
     box-sizing: border-box;
     background: #1B1B1B;
@@ -159,7 +155,8 @@ form input[type=submit]{
 
 .belt{
     background-color: #1B1B1B;
-    height: 100px;
+    height: 10vh;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -191,7 +188,6 @@ h2{
 .bestsellers__inner{
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(auto, 1fr));
     grid-template-rows: repeat(3, 100px);
     grid-template-areas:
         'a a b b b c c f f f f'
@@ -240,7 +236,7 @@ h2{
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(auto, 1fr));
-    grid-template-rows: repeat(3, 100px);
+    grid-template-rows: repeat(3, 40%);
     grid-template-areas:
         '. . a a b b c c d d . .'
         '. . a a b b c c d d . .'
@@ -286,4 +282,28 @@ h2{
     height: 350px;
     background: #111;
     position: relative; left: 0; bottom: 0;
+}
+
+.content{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media (max-width: 1200px){
+    .content{
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 992px){
+    .content{
+        max-width: 750px;
+    }   
+}
+
+@media (max-width: 767px){
+    .content{
+        max-width: none;
+    }
 }

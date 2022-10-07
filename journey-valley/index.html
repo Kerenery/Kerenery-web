@@ -6,38 +6,48 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap&family=Great+Vibes&family=Lato&family=Permanent+Marker&display=swap&family=Comfortaa:wght@300&family=Poppins:ital,wght@1,700&display=swap"
-          rel="stylesheet">          
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">          
+
 </head>
 <body>
-<!-- <header class="content header">
-    <div class="header-inner">
-        <div class="logo">
-            <a href="#">
-                <img src="assets/img/bobo.png" alt=""/>
-                <h1>Journey valley</h1>
-            </a>
-        </div>
-        <nav class="nav">
-            <a class="nav-link" href="#">Home</a>
-            <a class="nav-link" href="#">About</a>
-            <a class="nav-link" href="#">Services</a>
-            <a class="nav-link" href="#">Account</a>
-            <a class="nav-link" href="#">Camper</a>
-            <a class="nav-link" href="destination.html">Destinations</a>
-        </nav>
+
+<nav class="navbar">
+    <div> 
+        <a class="logo" href="#">
+            <img class="logo-img" src="assets/img/bobo.png" alt=""/>
+            <h1>Kerenery</h1>
+        </a>
     </div>
-</header> -->
+    <ul class="nav-list" id="navi-list">
+        <li class="list-item">
+          <a>Service</a>
+        </li>
+        <li class="list-item">
+          <a>About us</a>
+        </li>
+        <li class="list-item">
+          <a>Contact</a>
+        </li>
+        <li class="list-item">
+          <a>Manga</a>
+        </li>
+    </ul>
+
+    <div class="menu" id="toggle-button" onclick="menu();">
+        <div class="menu-line">
+        </div>
+        <div class="menu-line">
+        </div>
+        <div class="menu-line">
+        </div>
+    </div>
+</nav>
+
+
 
 
 <main>
-  <!-- <h2 class="dream__trip">Find a trip to your dream</h2>
-  <div class="search-bar">
-      <form>
-          <input class="destination" type="text" value="Destination">
-          <input type="submit" value="Find">
-      </form>
-  </div> -->
-  
   <div class="slider-container content">
       <div class="slider">
           <div class="slides">
@@ -126,4 +136,5 @@
 
 </footer>
 </body>
+    <script src="scripts/home.js"></script>
 </html>

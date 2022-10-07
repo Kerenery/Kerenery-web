@@ -12,7 +12,7 @@ body {
 h1{
     color:white;
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Mochiy Pop One', sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
@@ -60,7 +60,7 @@ h1{
 }
 
 .list-item a {
-    font-family: 'Poppins', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 @media (max-width: 609px){
@@ -96,11 +96,6 @@ h1{
     .logo {
         margin-right: 100%;
     }
-}
-
-
-main{
-    margin-top: 9%;
 }
 
 /* Slider */
@@ -159,7 +154,7 @@ main{
 
 .belt span{
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mochiy Pop One', sans-serif;
     font-size: 1.5rem;
     color: white;
     text-transform: uppercase;
@@ -171,7 +166,7 @@ main{
 
 h2{
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mochiy Pop One', sans-serif;
     font-size: 1.5rem;
     color: white;
     padding-top: 2%;
@@ -240,7 +235,7 @@ h2{
 .naming{
     color: white;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Mochiy Pop One', sans-serif;
     text-transform: uppercase;
 }
 
@@ -275,6 +270,24 @@ h2{
     height: 350px;
     background: #111;
     position: relative; left: 0; bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    padding: 10% 15% 10% 15%;
+}
+
+.footer span{
+    color: #696969;
+    column-count: 2;
+    column-gap: 50px;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.icon{
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    bottom: 15px;
 }
 
 .content{

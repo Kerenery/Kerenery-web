@@ -18,6 +18,11 @@ h1{
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .navbar{
     background-color: #1B1B1B;
     color: white;
@@ -213,7 +218,7 @@ a.current_dot {
     background-color: #1B1B1B;
     height: 10%;
     width: 100%;
-    margin: 0 auto;
+    margin: 3% auto 1% auto;
     display: flex;
     justify-content: center;
     align-items: center;

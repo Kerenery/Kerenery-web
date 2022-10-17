@@ -11,8 +11,8 @@ function menu() {
 			this.Nav = Array.from(this.el.querySelectorAll('nav a'));
 			this.totalSlides = this.Slides.length;
 			this.current = 0;
-			this.autoPlay = true; //true or false
-			this.timeTrans = 4000; //transition time in milliseconds
+			this.autoPlay = true;
+			this.timeTrans = 4000;
 			this.IndexElements = [];
 
 			for(let i=0;i<this.totalSlides;i++) {

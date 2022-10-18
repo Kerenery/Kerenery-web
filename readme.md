@@ -13,3 +13,6 @@ Main page
 
 Manga list page
 ![image](images/manga-list.jpg)
+
+Manga page
+![image](images/manga-page.jpg)

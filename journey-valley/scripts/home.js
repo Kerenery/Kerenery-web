@@ -28,7 +28,6 @@ function menu() {
 		}
 		initEvents() {
 			const self = this;
-
 			this.Nav.forEach((dot) => {
 				dot.addEventListener('click', (ele) => {
 					ele.preventDefault();

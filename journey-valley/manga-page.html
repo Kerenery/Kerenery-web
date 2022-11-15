@@ -1,9 +1,9 @@
 <!doctype html>
 <html lang="ru">
 <head>
-    <title>Top Manga</title>
+    <title>MangaName</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="assets/css/manga-list.css">
+    <link rel="stylesheet" href="assets/css/manga-item.css">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap&family=Great+Vibes&family=Lato&family=Permanent+Marker&display=swap"
           rel="stylesheet">          
 </head>
@@ -40,17 +40,57 @@
         </div>
     </nav>
 
-    <div class="manga-list-title">
-        <h1>All manga sorted by rating according to myanimelist</h1>
-    </div>
+    <div class="manga-item">
+        <div class="manga-item-inner">
+            <div class="manga-item-img">
+              <img src="assets/img/desert.jpeg" alt=""/>
+            </div>
+            <div class="manga-item-info">
+              <h1>One Piece</h1>
+              <p>One Piece is a Japanese manga series written and illustrated by Eiichiro Oda. It has been serialized in Shueisha's Weekly Shōnen Jump magazine since July 22, 1997, and has been collected into 98 tankōbon volumes. The story follows the adventures of Monkey D. Luffy,</p>
+            </div>   
+        </div>
 
+        <div class="first-chapter">
+            <img src="assets/img/des1.png">
+            <div class="first-chapter-info">
+                <h2>Chapter 1</h2>
+                <p>One Piece is a Japanese manga series,</p>
+                <div class="btn-list">
+                    <div class="first-chapter-btn">
+                        <a href="manga-page.html">Buy</a>
+                    </div>
+                    <div class="first-chapter-btn">
+                        <a href="manga-page.html">Read</a>
+                    </div>
+                    <div class="first-chapter-btn">
+                        <a href="manga-page.html">Something</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <div class="section">
-        <div class="container">
-          <div class="grid-row">
-          </div>
+        <div class="all-chapters-list">
+            <!-- n chapters pictures -->
+            <div class="container">
+                <div class="grid-row">
+                </div>
+            </div>
+        </div>
+
+        <div class="belt">
+            illustrated
+        </div>
+
+        <div class="manga-illustrations">
+            <!-- n illustrations pictures -->
+            <img src="assets/img/des1.png">
+            <img src="assets/img/des1.png">
+            <img src="assets/img/des1.png">
+            <img src="assets/img/drama.jpeg">
         </div>
     </div>
+
 
     <footer class="footer">
         <div class="content">
@@ -62,6 +102,6 @@
         </div>
     </footer>
 
-    <script src="../journey-valley/scripts/mangalist.js"></script>
+    <script src="../journey-valley/scripts/manga-item.js"></script>
 </body>
 </html>

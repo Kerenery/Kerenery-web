@@ -1,0 +1,125 @@
+{
+    "mal_id": 4632,
+    "url": "https://myanimelist.net/manga/4632/Oyasumi_Punpun",
+    "images": {
+        "jpg": {
+            "image_url": "https://cdn.myanimelist.net/images/manga/3/266834.jpg",
+            "small_image_url": "https://cdn.myanimelist.net/images/manga/3/266834t.jpg",
+            "large_image_url": "https://cdn.myanimelist.net/images/manga/3/266834l.jpg"
+        },
+        "webp": {
+            "image_url": "https://cdn.myanimelist.net/images/manga/3/266834.webp",
+            "small_image_url": "https://cdn.myanimelist.net/images/manga/3/266834t.webp",
+            "large_image_url": "https://cdn.myanimelist.net/images/manga/3/266834l.webp"
+        }
+    },
+    "approved": true,
+    "titles": [
+        {
+            "type": "Default",
+            "title": "Oyasumi Punpun"
+        },
+        {
+            "type": "Japanese",
+            "title": "おやすみプンプン"
+        },
+        {
+            "type": "English",
+            "title": "Goodnight Punpun"
+        },
+        {
+            "type": "German",
+            "title": "Gute Nacht, Punpun"
+        },
+        {
+            "type": "Spanish",
+            "title": "Buenas noches, Punpun"
+        },
+        {
+            "type": "French",
+            "title": "Bonne nuit Punpun"
+        }
+    ],
+    "title": "Oyasumi Punpun",
+    "title_english": "Goodnight Punpun",
+    "title_japanese": "おやすみプンプン",
+    "title_synonyms": [],
+    "type": "Manga",
+    "chapters": 147,
+    "volumes": 13,
+    "status": "Finished",
+    "publishing": false,
+    "published": {
+        "from": "2007-03-15T00:00:00+00:00",
+        "to": "2013-11-02T00:00:00+00:00",
+        "prop": {
+            "from": {
+                "day": 15,
+                "month": 3,
+                "year": 2007
+            },
+            "to": {
+                "day": 2,
+                "month": 11,
+                "year": 2013
+            }
+        },
+        "string": "Mar 15, 2007 to Nov 2, 2013"
+    },
+    "score": 9.03,
+    "scored": 9.03,
+    "scored_by": 149916,
+    "rank": 8,
+    "popularity": 10,
+    "members": 373497,
+    "favorites": 45302,
+    "synopsis": "Punpun Onodera is a normal 11-year-old boy living in Japan. Hopelessly idealistic and romantic, Punpun begins to see his life take a subtle—though nonetheless startling—turn to the adult when he meets the new girl in his class, Aiko Tanaka. It is then that the quiet boy learns just how fickle maintaining a relationship can be, and the surmounting difficulties of transitioning from a naïve boyhood to a convoluted adulthood. When his father assaults his mother one night, Punpun realizes another thing: those whom he looked up to were not as impressive as he once thought. As his problems increase, Punpun's once shy demeanor turns into voluntary reclusiveness. Rather than curing him of his problems and conflicting emotions, this merely intensifies them, sending him down the dark path of maturity in this grim coming-of-age saga. [Written by MAL Rewrite]",
+    "background": "Oyasumi Punpun was originally serialized in Young Sunday, but moved to Big Comic Spirits on October 20, 2008 (47th issue). It received a Jury Recommendation at the 13th Japan Media Arts Festival Awards in 2009. The series was published in English as Goodnight Punpun by VIZ Media under the VIZ Signature imprint in 7 omnibus volumes from March 15, 2016 to September 19, 2017. It was also published in Spanish as Buenas noches, Punpun by Norma Editorial from October 29, 2015 to October 29, 2016; in Italian as Buonanotte, Punpun by Panini Comics from April 14, 2011 to July 31, 2014; and has been published by Editorial Ivrea in Argentina since July 21, 2017.",
+    "authors": [
+        {
+            "mal_id": 2836,
+            "type": "people",
+            "name": "Asano, Inio",
+            "url": "https://myanimelist.net/people/2836/Inio_Asano"
+        }
+    ],
+    "serializations": [
+        {
+            "mal_id": 3,
+            "type": "manga",
+            "name": "Big Comic Spirits",
+            "url": "https://myanimelist.net/manga/magazine/3/Big_Comic_Spirits"
+        }
+    ],
+    "genres": [
+        {
+            "mal_id": 8,
+            "type": "manga",
+            "name": "Drama",
+            "url": "https://myanimelist.net/manga/genre/8/Drama"
+        },
+        {
+            "mal_id": 36,
+            "type": "manga",
+            "name": "Slice of Life",
+            "url": "https://myanimelist.net/manga/genre/36/Slice_of_Life"
+        }
+    ],
+    "explicit_genres": [],
+    "themes": [
+        {
+            "mal_id": 40,
+            "type": "manga",
+            "name": "Psychological",
+            "url": "https://myanimelist.net/manga/genre/40/Psychological"
+        }
+    ],
+    "demographics": [
+        {
+            "mal_id": 41,
+            "type": "manga",
+            "name": "Seinen",
+            "url": "https://myanimelist.net/manga/genre/41/Seinen"
+        }
+    ]
+}

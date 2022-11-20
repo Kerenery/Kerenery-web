@@ -54,7 +54,7 @@ async function displayManga(data) {
             <div class="manga-item-info">
               <h1>${manga_data.title}</h1>
               <p>${manga_data.synopsis}</p>
-            </div>   
+              </div>   
         </div>
 
         <div class="first-chapter">

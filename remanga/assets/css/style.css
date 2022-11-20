@@ -1,0 +1,73 @@
+@import "main.css";
+
+
+/* Search */
+
+.search-bar{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.destination{ 
+    padding-left: 30px;
+    color: #fff;
+}
+
+input[type="submit"]{
+    color: #fff;
+} 
+
+.black__text{
+    color: #000000;
+}
+
+
+.grid-item img { width: 100%; }
+
+.bestsellers{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.grid-bestsellers{
+    margin: 0 auto;
+}
+
+/* clear fix */
+.grid-bestsellers:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* ---- .grid-item ---- */
+
+.grid-sizer,
+.grid-item {
+  width: 32%;
+}
+
+@media screen and (max-width: 772px) {
+  .grid-sizer,
+  .grid-item {
+    width: 45%;
+  }
+}
+
+
+.grid-item {
+    margin-bottom: 15px;
+    float: left;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}
+
+.bestsellers{
+    margin: 0 auto;
+    max-width: 1200px;
+}

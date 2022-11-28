@@ -3,9 +3,13 @@
 <head>
     <title>MangaName</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="assets/css/manga-item.css">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap&family=Great+Vibes&family=Lato&family=Permanent+Marker&display=swap"
-          rel="stylesheet">          
+          rel="stylesheet">
+    <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.js"></script>
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
 </head>
 <body>
     <nav class="navbar">
@@ -41,6 +45,16 @@
     </nav>
 
     <div class="manga-item">
+        <div class="manga-container">
+            <div class="group-slider">
+                <div class="item-slider" style="--url: url(https://i.pinimg.com/564x/4d/36/8b/4d368ba85cc21e624e6875b5c78bd60e.jpg)">
+                </div>
+                <div class="item-slider" style="--url: url(https://gudstory.s3.us-east-2.amazonaws.com/wp-content/uploads/2022/07/23135842/Berserk-manga.jpg)">
+                </div>
+                <div class="item-slider" style="--url: url(https://images.pushsquare.com/54673c36b6091/berserk.large.jpg)">
+                </div>
+            </div>
+        </div>
     </div>
 
 
@@ -54,6 +68,7 @@
         </div>
     </footer>
 
-    <script src="../journey-valley/scripts/manga-item.js"></script>
+    <script src="scripts/manga-item.js"></script>
+    <script src="scripts/gsapslider.js"></script>
 </body>
 </html>

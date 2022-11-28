@@ -1,6 +1,41 @@
 @import "main.css";
 @import "style.css";
 
+.manga-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    background: linear-gradient(50deg, #000, #1e1e1e);
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.group-slider {
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 100vh;
+}
+  
+.item-slider {
+  width: 30vw;
+  height: 75vh;
+  background-image: var(--url);
+  background-position: center;
+  background-size: 75vh;
+  margin: 1vw;
+  border-radius: 3vw;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.manga-container {
+    padding-top: 5%;
+}
+
 .manga-item-img{
     margin: 5% 0;
     display: flex;
@@ -25,13 +60,38 @@ p {
     text-align: center;
 }
 
-.first-chapter{
-    margin: 0 0 20px 0;
-    max-width: 500px;
+.manga-info{
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    background-color: #1e1e1e;
+}
+
+.manga-item-info{
+    max-width: 50%;
+}
+
+.manga-item-info h1{
+    padding-top: 5%;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+    color: aliceblue;
+}
+
+.manga-item-info p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+.first-chapter{
+    max-width: 500px;
+    height: 400px;
     background-color: #1B1B1B;
     padding: 10px;
-    border: 1px solid #141414;
+    border: 4px solid #1B1B1B;
     border-radius: 5px;
     color: aliceblue;
     display: flex;
@@ -40,8 +100,8 @@ p {
 }
 
 .first-chapter img{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 400px;
     margin-right: 10px;
 }
 
@@ -68,7 +128,7 @@ p {
 
 .first-chapter-btn{
     margin-left: auto;
-    margin-top: 10px;
+    margin-top: 60%;
     width: 150%;
     background-color: #141414;
     color: #000;
@@ -109,4 +169,39 @@ p {
     margin-top: 100px;
 }
 
+@media screen and (max-width: 772px) {
+    .manga-info{
+        flex-direction: column;
+    }
+
+    .manga-item-info{
+        max-width: 100%;
+    }
+
+    .first-chapter{
+        max-width: 100%;
+    }
+
+    .manga-item-inner img{
+        max-width: 300px;
+        max-height: 300px;
+        margin: 0 auto;
+        object-fit: cover;
+    }
+
+    .first-chapter{
+        max-width: 400px;
+        height: 400px;
+    }
+
+    .btn-list{
+        flex-direction: column;
+    }
+
+    .first-chapter-btn{
+        margin-left: auto;
+        width: 100%;
+        margin-top: 5%;
+    }
+}
 

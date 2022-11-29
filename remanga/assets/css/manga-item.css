@@ -205,3 +205,61 @@ p {
     }
 }
 
+.alertbox {
+    color: #f1f1f1;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+button, input {
+  background-color: #FFF;
+  border: 1px solid #000;
+  box-shadow: 2px 2px 2px rgba(0,0,0, 0.25);
+  padding: 10px;
+}
+button:hover {
+  background: #1e1e1e;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+input{
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+button{
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+form {
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+
+  border: 2px solid #000;
+  box-shadow: 2px 2px 2px rgba(0,0,0, 0.25);
+  margin: 20px;
+  overflow: auto;
+  padding: 10px;
+  
+}
+
+li .task {
+  margin: 10px;
+}
+
+li .date {
+  float: right;
+  margin: 5px;
+}

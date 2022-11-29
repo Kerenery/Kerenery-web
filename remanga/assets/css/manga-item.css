@@ -1,0 +1,265 @@
+@import "main.css";
+@import "style.css";
+
+.manga-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+    background: linear-gradient(50deg, #000, #1e1e1e);
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.group-slider {
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 100vh;
+}
+  
+.item-slider {
+  width: 30vw;
+  height: 75vh;
+  background-image: var(--url);
+  background-position: center;
+  background-size: 75vh;
+  margin: 1vw;
+  border-radius: 3vw;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.manga-container {
+    padding-top: 5%;
+}
+
+.manga-item-img{
+    margin: 5% 0;
+    display: flex;
+    justify-content: center;
+}
+
+.manga-item-inner{
+    margin: 0 auto;
+}
+
+.manga-item-inner img{
+    max-width: 500px;
+    max-height: 500px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px 0;
+    color: aliceblue;
+    text-align: center;
+}
+
+.manga-info{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    background-color: #1e1e1e;
+}
+
+.manga-item-info{
+    max-width: 50%;
+}
+
+.manga-item-info h1{
+    padding-top: 5%;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+    color: aliceblue;
+}
+
+.manga-item-info p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+.first-chapter{
+    max-width: 500px;
+    height: 400px;
+    background-color: #1B1B1B;
+    padding: 10px;
+    border: 4px solid #1B1B1B;
+    border-radius: 5px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-chapter img{
+    width: 300px;
+    height: 400px;
+    margin-right: 10px;
+}
+
+.first-chapter-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-chapter-info h2{
+    font-family: 'Mochiy Pop One', sans-serif;
+    font-size: 15px;
+    margin: 0;
+    margin-left: auto;
+}
+
+.btn-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.first-chapter-btn{
+    margin-left: auto;
+    margin-top: 60%;
+    width: 150%;
+    background-color: #141414;
+    color: #000;
+    border: 1px solid #141414;
+    border-radius: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.all-chapters-list{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    background-color: #1B1B1B;
+    padding: 10px;
+    border: 1px solid #141414;
+    border-radius: 5px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* make  */
+    flex-direction: column;
+}
+
+.all-chapters-list img{
+    width: 250px;
+    height: 250px;
+    margin-right: 10px;
+}
+
+.manga-illustrations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 772px) {
+    .manga-info{
+        flex-direction: column;
+    }
+
+    .manga-item-info{
+        max-width: 100%;
+    }
+
+    .first-chapter{
+        max-width: 100%;
+    }
+
+    .manga-item-inner img{
+        max-width: 300px;
+        max-height: 300px;
+        margin: 0 auto;
+        object-fit: cover;
+    }
+
+    .first-chapter{
+        max-width: 400px;
+        height: 400px;
+    }
+
+    .btn-list{
+        flex-direction: column;
+    }
+
+    .first-chapter-btn{
+        margin-left: auto;
+        width: 100%;
+        margin-top: 5%;
+    }
+}
+
+.alertbox {
+    color: #f1f1f1;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+button, input {
+  background-color: #FFF;
+  border: 1px solid #000;
+  box-shadow: 2px 2px 2px rgba(0,0,0, 0.25);
+  padding: 10px;
+}
+button:hover {
+  background: #1e1e1e;
+  cursor: pointer;
+  transition: .3s ease;
+}
+
+input{
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+button{
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+form {
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+
+  border: 2px solid #000;
+  box-shadow: 2px 2px 2px rgba(0,0,0, 0.25);
+  margin: 20px;
+  overflow: auto;
+  padding: 10px;
+  
+}
+
+li .task {
+  margin: 10px;
+}
+
+li .date {
+  float: right;
+  margin: 5px;
+}
